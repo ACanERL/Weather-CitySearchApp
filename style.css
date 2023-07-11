@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(60, 58, 73);
+}
+html{
+    font-size: 1rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    margin-top: 3rem;
+    color: rgb(79, 85, 90);
+}
+.container-feature{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    
+}
+#searchInput{
+    padding: 12px;
+    margin: 12px;
+    border: none;
+   box-shadow: 1px 2px #888888;
+    border-radius: 6px;
+}
+#searchButton{
+    padding: 12px;
+    margin: 12px;
+    box-shadow: 1px 2px #888888;
+    border-radius: 6px;
+}
+.not-found{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    scale: 0;
+    opacity: 0;
+    display: none;
+}
+.dot{
+    display: flex;
+    margin-top: 20px;
+    width: 50px;
+    border: 3px dashed  salmon;
+}
+.not-found img{
+    width: 30%;
+}
+.state{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: bisque;
+    border-radius: 12px;
+     margin: 40px;
+    padding: 18px;
+}
+.not-found p{
+    color: #06283D;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.weather-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.gk:last-child{
+   text-transform: uppercase;
+}
+.weather-box img{
+    width: 60%;
+    margin-top: 30px;
+}.fadeIn{
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
